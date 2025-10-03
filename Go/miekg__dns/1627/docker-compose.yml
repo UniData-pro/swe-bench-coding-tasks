@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  report:
+    env_file:
+      - ./.env
+    build:
+      context: ./${REPO_NAME}
+      dockerfile: ./dockerfile
+      args:
+        BASE_COMMIT: ${BASE_COMMIT}
+        GO_VERSION: ${GO_VERSION}
+    user: root
+    volumes:
+      - ./${PATH_TO_LOGS}/:/reports/
+      - ./${PATH_TO_PATCHES}:/patches/
+    command: >
+      sh -c "(go test -v ./... > /reports/${TEST_INSTALLATION} || true) && \
+             ((git apply --ignore-space-change --ignore-whitespace /patches/test.patch && go test -v ./... > /reports/${TEST_TEST_PATCH}) || true) && \
+             ((git apply --ignore-space-change --ignore-whitespace /patches/golden.patch && go test -v ./... > /reports/${TEST_GOLDEN_PATCH}) || true)"

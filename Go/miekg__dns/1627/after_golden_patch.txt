@@ -1,0 +1,860 @@
+=== RUN   TestAcceptNotify
+--- PASS: TestAcceptNotify (0.00s)
+=== RUN   TestInvalidMsg
+--- PASS: TestInvalidMsg (0.00s)
+=== RUN   TestIsPacketConn
+=== RUN   TestIsPacketConn/UDP
+=== RUN   TestIsPacketConn/TCP
+=== RUN   TestIsPacketConn/Unix_datagram
+=== RUN   TestIsPacketConn/Unix_Seqpacket
+=== RUN   TestIsPacketConn/Unix_stream
+--- PASS: TestIsPacketConn (0.00s)
+    --- PASS: TestIsPacketConn/UDP (0.00s)
+    --- PASS: TestIsPacketConn/TCP (0.00s)
+    --- PASS: TestIsPacketConn/Unix_datagram (0.00s)
+    --- PASS: TestIsPacketConn/Unix_Seqpacket (0.00s)
+    --- PASS: TestIsPacketConn/Unix_stream (0.00s)
+=== RUN   TestDialUDP
+--- PASS: TestDialUDP (0.00s)
+=== RUN   TestClientSync
+--- PASS: TestClientSync (0.00s)
+=== RUN   TestClientLocalAddress
+--- PASS: TestClientLocalAddress (0.00s)
+=== RUN   TestClientTLSSyncV4
+--- PASS: TestClientTLSSyncV4 (0.00s)
+=== RUN   TestClientSyncBadID
+--- PASS: TestClientSyncBadID (0.01s)
+=== RUN   TestClientSyncBadThenGoodID
+--- PASS: TestClientSyncBadThenGoodID (0.00s)
+=== RUN   TestClientSyncTCPBadID
+--- PASS: TestClientSyncTCPBadID (0.00s)
+=== RUN   TestClientEDNS0
+--- PASS: TestClientEDNS0 (0.00s)
+=== RUN   TestClientEDNS0Local
+--- PASS: TestClientEDNS0Local (0.00s)
+=== RUN   TestClientConn
+--- PASS: TestClientConn (0.00s)
+=== RUN   TestClientConnWriteSinglePacket
+--- PASS: TestClientConnWriteSinglePacket (0.00s)
+=== RUN   TestTruncatedMsg
+--- PASS: TestTruncatedMsg (0.00s)
+=== RUN   TestTimeout
+=== RUN   TestTimeout/Exchange
+=== RUN   TestTimeout/ExchangeContext
+--- PASS: TestTimeout (0.00s)
+    --- PASS: TestTimeout/Exchange (0.00s)
+    --- PASS: TestTimeout/ExchangeContext (0.00s)
+=== RUN   TestExchangeWithConn
+--- PASS: TestExchangeWithConn (0.00s)
+=== RUN   TestNameserver
+--- PASS: TestNameserver (0.00s)
+=== RUN   TestMissingFinalNewLine
+--- PASS: TestMissingFinalNewLine (0.00s)
+=== RUN   TestNdots
+--- PASS: TestNdots (0.00s)
+=== RUN   TestClientConfigFromReaderAttempts
+=== RUN   TestClientConfigFromReaderAttempts/options_attempts_0
+=== PAUSE TestClientConfigFromReaderAttempts/options_attempts_0
+=== RUN   TestClientConfigFromReaderAttempts/options_attempts_1
+=== PAUSE TestClientConfigFromReaderAttempts/options_attempts_1
+=== RUN   TestClientConfigFromReaderAttempts/options_attempts_15
+=== PAUSE TestClientConfigFromReaderAttempts/options_attempts_15
+=== RUN   TestClientConfigFromReaderAttempts/options_attempts_16
+=== PAUSE TestClientConfigFromReaderAttempts/options_attempts_16
+=== RUN   TestClientConfigFromReaderAttempts/options_attempts_-1
+=== PAUSE TestClientConfigFromReaderAttempts/options_attempts_-1
+=== RUN   TestClientConfigFromReaderAttempts/options_attempt_
+=== PAUSE TestClientConfigFromReaderAttempts/options_attempt_
+=== CONT  TestClientConfigFromReaderAttempts/options_attempts_0
+=== CONT  TestClientConfigFromReaderAttempts/options_attempts_16
+=== CONT  TestClientConfigFromReaderAttempts/options_attempts_15
+=== CONT  TestClientConfigFromReaderAttempts/options_attempt_
+=== CONT  TestClientConfigFromReaderAttempts/options_attempts_-1
+=== CONT  TestClientConfigFromReaderAttempts/options_attempts_1
+--- PASS: TestClientConfigFromReaderAttempts (0.00s)
+    --- PASS: TestClientConfigFromReaderAttempts/options_attempts_0 (0.00s)
+    --- PASS: TestClientConfigFromReaderAttempts/options_attempts_15 (0.00s)
+    --- PASS: TestClientConfigFromReaderAttempts/options_attempts_16 (0.00s)
+    --- PASS: TestClientConfigFromReaderAttempts/options_attempt_ (0.00s)
+    --- PASS: TestClientConfigFromReaderAttempts/options_attempts_-1 (0.00s)
+    --- PASS: TestClientConfigFromReaderAttempts/options_attempts_1 (0.00s)
+=== RUN   TestReadFromFile
+--- PASS: TestReadFromFile (0.00s)
+=== RUN   TestNameListNdots1
+--- PASS: TestNameListNdots1 (0.00s)
+=== RUN   TestNameListNdots2
+--- PASS: TestNameListNdots2 (0.00s)
+=== RUN   TestNameListNdots0
+--- PASS: TestNameListNdots0 (0.00s)
+=== RUN   TestPackUnpack
+--- PASS: TestPackUnpack (0.00s)
+=== RUN   TestPackUnpack2
+--- PASS: TestPackUnpack2 (0.00s)
+=== RUN   TestPackUnpack3
+--- PASS: TestPackUnpack3 (0.00s)
+=== RUN   TestBailiwick
+--- PASS: TestBailiwick (0.00s)
+=== RUN   TestPackNAPTR
+--- PASS: TestPackNAPTR (0.00s)
+=== RUN   TestToRFC3597
+--- PASS: TestToRFC3597 (0.00s)
+=== RUN   TestNoRdataPack
+--- PASS: TestNoRdataPack (0.00s)
+=== RUN   TestNoRdataUnpack
+--- PASS: TestNoRdataUnpack (0.00s)
+=== RUN   TestRdataOverflow
+--- PASS: TestRdataOverflow (0.00s)
+=== RUN   TestCopy
+--- PASS: TestCopy (0.00s)
+=== RUN   TestMsgCopy
+--- PASS: TestMsgCopy (0.00s)
+=== RUN   TestMsgPackBuffer
+--- PASS: TestMsgPackBuffer (0.00s)
+=== RUN   TestTKEY
+--- PASS: TestTKEY (0.00s)
+=== RUN   TestSecure
+--- PASS: TestSecure (0.00s)
+=== RUN   TestSignature
+--- PASS: TestSignature (0.00s)
+=== RUN   TestSignVerify
+--- PASS: TestSignVerify (0.00s)
+=== RUN   TestShouldNotVerifyInvalidSig
+    dnssec_test.go:222: expected failure: dns: bad rrset for RR name example.com., class 1, type 6, rrsig labels 2
+    dnssec_test.go:222: expected failure: dns: bad rrset for RR name miek.nl., class 3, type 6, rrsig labels 2
+    dnssec_test.go:222: expected failure: dns: bad rrset for RR name miek.nl., class 1, type 1, rrsig labels 2
+    dnssec_test.go:222: expected failure: dns: bad rrset for RR name nl., class 1, type 6, rrsig labels 1
+    dnssec_test.go:240: expected failure: dns: bad rrset for signer example.com. and owner miek.nl.
+    dnssec_test.go:253: expected failure: dns: bad key for signer miek.nl. algo 5 keytag 16848
+    dnssec_test.go:253: expected failure: dns: bad key for signer miek.nl. algo 8 keytag 12345
+    dnssec_test.go:265: expected failure: dns: bad key for key flags 0
+--- PASS: TestShouldNotVerifyInvalidSig (0.00s)
+=== RUN   Test65534
+--- PASS: Test65534 (0.00s)
+=== RUN   TestDnskey
+--- PASS: TestDnskey (0.00s)
+=== RUN   TestTag
+--- PASS: TestTag (0.00s)
+=== RUN   TestKeyRSA
+--- PASS: TestKeyRSA (0.00s)
+=== RUN   TestKeyToDS
+--- PASS: TestKeyToDS (0.00s)
+=== RUN   TestSignRSA
+--- PASS: TestSignRSA (0.00s)
+=== RUN   TestSignVerifyECDSA
+--- PASS: TestSignVerifyECDSA (0.00s)
+=== RUN   TestSignVerifyECDSA2
+--- PASS: TestSignVerifyECDSA2 (0.00s)
+=== RUN   TestSignVerifyEd25519
+--- PASS: TestSignVerifyEd25519 (0.00s)
+=== RUN   TestRFC6605P256
+--- PASS: TestRFC6605P256 (0.00s)
+=== RUN   TestRFC6605P384
+--- PASS: TestRFC6605P384 (0.00s)
+=== RUN   TestRFC8080Ed25519Example1
+--- PASS: TestRFC8080Ed25519Example1 (0.00s)
+=== RUN   TestRFC8080Ed25519Example2
+--- PASS: TestRFC8080Ed25519Example2 (0.00s)
+=== RUN   TestInvalidRRSet
+--- PASS: TestInvalidRRSet (0.00s)
+=== RUN   TestRsaExponentUnpack
+--- PASS: TestRsaExponentUnpack (0.00s)
+=== RUN   TestParseKeyReadError
+--- PASS: TestParseKeyReadError (0.00s)
+=== RUN   TestRSAMD5KeyTag
+--- PASS: TestRSAMD5KeyTag (0.00s)
+=== RUN   TestDuplicateA
+--- PASS: TestDuplicateA (0.00s)
+=== RUN   TestDuplicateTXT
+--- PASS: TestDuplicateTXT (0.00s)
+=== RUN   TestDuplicateSVCB
+--- PASS: TestDuplicateSVCB (0.00s)
+=== RUN   TestDuplicateOwner
+--- PASS: TestDuplicateOwner (0.00s)
+=== RUN   TestDuplicateDomain
+--- PASS: TestDuplicateDomain (0.00s)
+=== RUN   TestDuplicateWrongRrtype
+--- PASS: TestDuplicateWrongRrtype (0.00s)
+=== RUN   TestOPTTtl
+--- PASS: TestOPTTtl (0.00s)
+=== RUN   TestEDNS0_SUBNETUnpack
+--- PASS: TestEDNS0_SUBNETUnpack (0.00s)
+=== RUN   TestEDNS0_UL
+--- PASS: TestEDNS0_UL (0.00s)
+=== RUN   TestZ
+--- PASS: TestZ (0.00s)
+=== RUN   TestEDNS0_ESU
+--- PASS: TestEDNS0_ESU (0.00s)
+=== RUN   TestEDNS0_TCP_KEEPALIVE_unpack
+=== RUN   TestEDNS0_TCP_KEEPALIVE_unpack/empty
+=== RUN   TestEDNS0_TCP_KEEPALIVE_unpack/timeout_1
+=== RUN   TestEDNS0_TCP_KEEPALIVE_unpack/invalid
+--- PASS: TestEDNS0_TCP_KEEPALIVE_unpack (0.00s)
+    --- PASS: TestEDNS0_TCP_KEEPALIVE_unpack/empty (0.00s)
+    --- PASS: TestEDNS0_TCP_KEEPALIVE_unpack/timeout_1 (0.00s)
+    --- PASS: TestEDNS0_TCP_KEEPALIVE_unpack/invalid (0.00s)
+=== RUN   TestEDNS0_TCP_KEEPALIVE_pack
+=== RUN   TestEDNS0_TCP_KEEPALIVE_pack/empty
+=== RUN   TestEDNS0_TCP_KEEPALIVE_pack/timeout_1
+--- PASS: TestEDNS0_TCP_KEEPALIVE_pack (0.00s)
+    --- PASS: TestEDNS0_TCP_KEEPALIVE_pack/empty (0.00s)
+    --- PASS: TestEDNS0_TCP_KEEPALIVE_pack/timeout_1 (0.00s)
+=== RUN   TestFieldEmptyAOrAAAAData
+--- PASS: TestFieldEmptyAOrAAAAData (0.00s)
+=== RUN   TestPackDataOpt
+=== RUN   TestPackDataOpt/overflow
+--- PASS: TestPackDataOpt (0.00s)
+    --- PASS: TestPackDataOpt/overflow (0.00s)
+=== RUN   TestCrashNSEC
+--- PASS: TestCrashNSEC (0.00s)
+=== RUN   TestCrashNSEC3
+--- PASS: TestCrashNSEC3 (0.00s)
+=== RUN   TestNewRRCommentLengthCrasherString
+=== RUN   TestNewRRCommentLengthCrasherString/HINFO1
+--- PASS: TestNewRRCommentLengthCrasherString (0.00s)
+    --- PASS: TestNewRRCommentLengthCrasherString/HINFO1 (0.00s)
+=== RUN   TestGenerateRangeGuard
+--- PASS: TestGenerateRangeGuard (0.00s)
+=== RUN   TestGenerateIncludeDepth
+--- PASS: TestGenerateIncludeDepth (0.00s)
+=== RUN   TestGenerateIncludeDisallowed
+--- PASS: TestGenerateIncludeDisallowed (0.00s)
+=== RUN   TestGenerateSurfacesErrors
+--- PASS: TestGenerateSurfacesErrors (0.00s)
+=== RUN   TestGenerateSurfacesLexerErrors
+--- PASS: TestGenerateSurfacesLexerErrors (0.00s)
+=== RUN   TestGenerateModToPrintf
+--- PASS: TestGenerateModToPrintf (0.00s)
+=== RUN   TestCrasherString
+=== RUN   TestCrasherString/$GENERATE_0-300103"$$GENERATE_2-2
+=== RUN   TestCrasherString/$GENERATE_0-5414137360
+=== RUN   TestCrasherString/$GENERATE_______11522-3668518066406258
+=== RUN   TestCrasherString/$GENERATE_0-200"(;00000000000000_$$GENERATE_0-0
+=== RUN   TestCrasherString/$GENERATE_6-2048_$$GENERATE_6-036160_$$$$ORIGIN_\$
+--- PASS: TestCrasherString (0.00s)
+    --- PASS: TestCrasherString/$GENERATE_0-300103"$$GENERATE_2-2 (0.00s)
+    --- PASS: TestCrasherString/$GENERATE_0-5414137360 (0.00s)
+    --- PASS: TestCrasherString/$GENERATE_______11522-3668518066406258 (0.00s)
+    --- PASS: TestCrasherString/$GENERATE_0-200"(;00000000000000_$$GENERATE_0-0 (0.00s)
+    --- PASS: TestCrasherString/$GENERATE_6-2048_$$GENERATE_6-036160_$$$$ORIGIN_\$ (0.00s)
+=== RUN   TestNSEC3MissingSalt
+--- PASS: TestNSEC3MissingSalt (0.00s)
+=== RUN   TestNSEC3MixedNextDomain
+--- PASS: TestNSEC3MixedNextDomain (0.00s)
+=== RUN   TestCompareDomainName
+--- PASS: TestCompareDomainName (0.00s)
+=== RUN   TestSplit
+--- PASS: TestSplit (0.00s)
+=== RUN   TestSplit2
+--- PASS: TestSplit2 (0.00s)
+=== RUN   TestNextLabel
+--- PASS: TestNextLabel (0.00s)
+=== RUN   TestPrevLabel
+--- PASS: TestPrevLabel (0.00s)
+=== RUN   TestCountLabel
+--- PASS: TestCountLabel (0.00s)
+=== RUN   TestSplitDomainName
+--- PASS: TestSplitDomainName (0.00s)
+=== RUN   TestIsDomainName
+--- PASS: TestIsDomainName (0.00s)
+=== RUN   TestIsFqdnEscaped
+--- PASS: TestIsFqdnEscaped (0.00s)
+=== RUN   TestCanonicalName
+--- PASS: TestCanonicalName (0.00s)
+=== RUN   TestCompressLength
+--- PASS: TestCompressLength (0.00s)
+=== RUN   TestMsgCompressLength
+--- PASS: TestMsgCompressLength (0.00s)
+=== RUN   TestMsgLength
+--- PASS: TestMsgLength (0.00s)
+=== RUN   TestCompressionLenSearchInsert
+--- PASS: TestCompressionLenSearchInsert (0.00s)
+=== RUN   TestCompressionLenSearch
+--- PASS: TestCompressionLenSearch (0.00s)
+=== RUN   TestMsgLength2
+--- PASS: TestMsgLength2 (0.00s)
+=== RUN   TestMsgLengthCompressionMalformed
+--- PASS: TestMsgLengthCompressionMalformed (0.00s)
+=== RUN   TestMsgCompressLength2
+--- PASS: TestMsgCompressLength2 (0.00s)
+=== RUN   TestMsgCompressLengthLargeRecords
+--- PASS: TestMsgCompressLengthLargeRecords (0.00s)
+=== RUN   TestCompareCompressionMapsForANY
+--- PASS: TestCompareCompressionMapsForANY (0.03s)
+=== RUN   TestCompareCompressionMapsForSRV
+--- PASS: TestCompareCompressionMapsForSRV (0.05s)
+=== RUN   TestMsgCompressLengthLargeRecordsWithPaddingPermutation
+--- PASS: TestMsgCompressLengthLargeRecordsWithPaddingPermutation (0.02s)
+=== RUN   TestMsgCompressLengthLargeRecordsAllValues
+--- PASS: TestMsgCompressLengthLargeRecordsAllValues (0.00s)
+=== RUN   TestMsgCompressionMultipleQuestions
+--- PASS: TestMsgCompressionMultipleQuestions (0.00s)
+=== RUN   TestMsgCompressMultipleCompressedNames
+--- PASS: TestMsgCompressMultipleCompressedNames (0.00s)
+=== RUN   TestMsgCompressLengthEscapingMatch
+--- PASS: TestMsgCompressLengthEscapingMatch (0.00s)
+=== RUN   TestMsgLengthEscaped
+--- PASS: TestMsgLengthEscaped (0.00s)
+=== RUN   TestMsgCompressLengthEscaped
+--- PASS: TestMsgCompressLengthEscaped (0.00s)
+=== RUN   TestPackDataNsec
+=== RUN   TestPackDataNsec/overflow
+=== RUN   TestPackDataNsec/disordered_nsec_bits
+=== RUN   TestPackDataNsec/simple_message_with_only_one_window
+=== RUN   TestPackDataNsec/multiple_types
+--- PASS: TestPackDataNsec (0.00s)
+    --- PASS: TestPackDataNsec/overflow (0.00s)
+    --- PASS: TestPackDataNsec/disordered_nsec_bits (0.00s)
+    --- PASS: TestPackDataNsec/simple_message_with_only_one_window (0.00s)
+    --- PASS: TestPackDataNsec/multiple_types (0.00s)
+=== RUN   TestPackDataNsecDirtyBuffer
+--- PASS: TestPackDataNsecDirtyBuffer (0.00s)
+=== RUN   TestUnpackString
+--- PASS: TestUnpackString (0.00s)
+=== RUN   TestPackDataAplPrefix
+=== RUN   TestPackDataAplPrefix/1:192.0.2.0/24
+=== RUN   TestPackDataAplPrefix/2:2001:db8:cafe::0/48
+=== RUN   TestPackDataAplPrefix/with_trailing_zero_bytes_2:2001:db8:cafe::0/64
+=== RUN   TestPackDataAplPrefix/no_non-zero_bytes_2::/16
+=== RUN   TestPackDataAplPrefix/!2:2001:db8::/32
+=== RUN   TestPackDataAplPrefix/normalize_1:198.51.103.255/22
+--- PASS: TestPackDataAplPrefix (0.00s)
+    --- PASS: TestPackDataAplPrefix/1:192.0.2.0/24 (0.00s)
+    --- PASS: TestPackDataAplPrefix/2:2001:db8:cafe::0/48 (0.00s)
+    --- PASS: TestPackDataAplPrefix/with_trailing_zero_bytes_2:2001:db8:cafe::0/64 (0.00s)
+    --- PASS: TestPackDataAplPrefix/no_non-zero_bytes_2::/16 (0.00s)
+    --- PASS: TestPackDataAplPrefix/!2:2001:db8::/32 (0.00s)
+    --- PASS: TestPackDataAplPrefix/normalize_1:198.51.103.255/22 (0.00s)
+=== RUN   TestPackDataAplPrefix_Failures
+=== RUN   TestPackDataAplPrefix_Failures/family_mismatch
+=== RUN   TestPackDataAplPrefix_Failures/unrecognized_family
+--- PASS: TestPackDataAplPrefix_Failures (0.00s)
+    --- PASS: TestPackDataAplPrefix_Failures/family_mismatch (0.00s)
+    --- PASS: TestPackDataAplPrefix_Failures/unrecognized_family (0.00s)
+=== RUN   TestPackDataAplPrefix_BufferBounds
+=== RUN   TestPackDataAplPrefix_BufferBounds/small
+=== RUN   TestPackDataAplPrefix_BufferBounds/exact_fit
+--- PASS: TestPackDataAplPrefix_BufferBounds (0.00s)
+    --- PASS: TestPackDataAplPrefix_BufferBounds/small (0.00s)
+    --- PASS: TestPackDataAplPrefix_BufferBounds/exact_fit (0.00s)
+=== RUN   TestPackDataApl
+--- PASS: TestPackDataApl (0.00s)
+=== RUN   TestUnpackDataAplPrefix
+=== RUN   TestUnpackDataAplPrefix/1:192.0.2.0/24
+=== RUN   TestUnpackDataAplPrefix/2:2001:db8::/32
+=== RUN   TestUnpackDataAplPrefix/!2:2001:db8:8000::/33
+=== RUN   TestUnpackDataAplPrefix/1:0.0.0.0/0
+--- PASS: TestUnpackDataAplPrefix (0.00s)
+    --- PASS: TestUnpackDataAplPrefix/1:192.0.2.0/24 (0.00s)
+    --- PASS: TestUnpackDataAplPrefix/2:2001:db8::/32 (0.00s)
+    --- PASS: TestUnpackDataAplPrefix/!2:2001:db8:8000::/33 (0.00s)
+    --- PASS: TestUnpackDataAplPrefix/1:0.0.0.0/0 (0.00s)
+=== RUN   TestUnpackDataAplPrefix_Errors
+=== RUN   TestUnpackDataAplPrefix_Errors/incomplete_header
+=== RUN   TestUnpackDataAplPrefix_Errors/unrecognized_family
+=== RUN   TestUnpackDataAplPrefix_Errors/prefix_too_large_for_family_IPv4
+=== RUN   TestUnpackDataAplPrefix_Errors/prefix_too_large_for_family_IPv6
+=== RUN   TestUnpackDataAplPrefix_Errors/afdlen_too_long_for_address_family_IPv4
+=== RUN   TestUnpackDataAplPrefix_Errors/overflow_unpacking_APL_address
+=== RUN   TestUnpackDataAplPrefix_Errors/address_included_trailing_zeros
+--- PASS: TestUnpackDataAplPrefix_Errors (0.00s)
+    --- PASS: TestUnpackDataAplPrefix_Errors/incomplete_header (0.00s)
+    --- PASS: TestUnpackDataAplPrefix_Errors/unrecognized_family (0.00s)
+    --- PASS: TestUnpackDataAplPrefix_Errors/prefix_too_large_for_family_IPv4 (0.00s)
+    --- PASS: TestUnpackDataAplPrefix_Errors/prefix_too_large_for_family_IPv6 (0.00s)
+    --- PASS: TestUnpackDataAplPrefix_Errors/afdlen_too_long_for_address_family_IPv4 (0.00s)
+    --- PASS: TestUnpackDataAplPrefix_Errors/overflow_unpacking_APL_address (0.00s)
+    --- PASS: TestUnpackDataAplPrefix_Errors/address_included_trailing_zeros (0.00s)
+=== RUN   TestUnpackDataApl
+--- PASS: TestUnpackDataApl (0.00s)
+=== RUN   TestPackNoSideEffect
+--- PASS: TestPackNoSideEffect (0.00s)
+=== RUN   TestPackExtendedBadCookie
+--- PASS: TestPackExtendedBadCookie (0.00s)
+=== RUN   TestUnPackExtendedRcode
+--- PASS: TestUnPackExtendedRcode (0.00s)
+=== RUN   TestUnpackDomainName
+--- PASS: TestUnpackDomainName (0.00s)
+=== RUN   TestPackDomainNameCompressionMap
+--- PASS: TestPackDomainNameCompressionMap (0.00s)
+=== RUN   TestPackDomainNameNSECTypeBitmap
+--- PASS: TestPackDomainNameNSECTypeBitmap (0.00s)
+=== RUN   TestPackUnpackManyCompressionPointers
+--- PASS: TestPackUnpackManyCompressionPointers (0.01s)
+=== RUN   TestLenDynamicA
+--- PASS: TestLenDynamicA (0.00s)
+=== RUN   TestRequestTruncateAnswer
+--- PASS: TestRequestTruncateAnswer (0.00s)
+=== RUN   TestRequestTruncateExtra
+--- PASS: TestRequestTruncateExtra (0.00s)
+=== RUN   TestRequestTruncateExtraEdns0
+--- PASS: TestRequestTruncateExtraEdns0 (0.00s)
+=== RUN   TestRequestTruncateExtraRegression
+--- PASS: TestRequestTruncateExtraRegression (0.00s)
+=== RUN   TestTruncation
+--- PASS: TestTruncation (0.01s)
+=== RUN   TestRequestTruncateAnswerExact
+--- PASS: TestRequestTruncateAnswerExact (0.00s)
+=== RUN   TestPackNsec3
+--- PASS: TestPackNsec3 (0.00s)
+=== RUN   TestNsec3
+--- PASS: TestNsec3 (0.00s)
+=== RUN   TestNsec3EmptySalt
+--- PASS: TestNsec3EmptySalt (0.00s)
+=== RUN   TestDotInName
+--- PASS: TestDotInName (0.00s)
+=== RUN   TestDotLastInLabel
+--- PASS: TestDotLastInLabel (0.00s)
+=== RUN   TestTooLongDomainName
+--- PASS: TestTooLongDomainName (0.00s)
+=== RUN   TestDomainName
+--- PASS: TestDomainName (0.00s)
+=== RUN   TestDomainNameAndTXTEscapes
+--- PASS: TestDomainNameAndTXTEscapes (0.00s)
+=== RUN   TestTXTEscapeParsing
+--- PASS: TestTXTEscapeParsing (0.00s)
+=== RUN   TestDomainQuick
+--- PASS: TestDomainQuick (0.00s)
+=== RUN   TestParseDirectiveMisc
+--- PASS: TestParseDirectiveMisc (0.00s)
+=== RUN   TestNSEC
+--- PASS: TestNSEC (0.00s)
+=== RUN   TestParseLOC
+--- PASS: TestParseLOC (0.00s)
+=== RUN   TestStringToCm
+=== RUN   TestStringToCm/100
+=== RUN   TestStringToCm/0100
+=== RUN   TestStringToCm/100.99
+=== RUN   TestStringToCm/90000000
+=== RUN   TestStringToCm/90000000.00
+=== RUN   TestStringToCm/0
+=== RUN   TestStringToCm/0.00
+=== RUN   TestStringToCm/0.01
+=== RUN   TestStringToCm/.01
+=== RUN   TestStringToCm/0.1
+=== RUN   TestStringToCm/90000001
+=== RUN   TestStringToCm/90000000.01
+=== RUN   TestStringToCm/0.000
+=== RUN   TestStringToCm/0.001
+=== RUN   TestStringToCm/0.999
+=== RUN   TestStringToCm/-100
+=== RUN   TestStringToCm/+100
+=== RUN   TestStringToCm/0.-10
+=== RUN   TestStringToCm/0.+10
+=== RUN   TestStringToCm/0a.00
+=== RUN   TestStringToCm/.1x
+=== RUN   TestStringToCm/.
+=== RUN   TestStringToCm/1.
+=== RUN   TestStringToCm/m
+--- PASS: TestStringToCm (0.00s)
+    --- PASS: TestStringToCm/100 (0.00s)
+    --- PASS: TestStringToCm/0100 (0.00s)
+    --- PASS: TestStringToCm/100.99 (0.00s)
+    --- PASS: TestStringToCm/90000000 (0.00s)
+    --- PASS: TestStringToCm/90000000.00 (0.00s)
+    --- PASS: TestStringToCm/0 (0.00s)
+    --- PASS: TestStringToCm/0.00 (0.00s)
+    --- PASS: TestStringToCm/0.01 (0.00s)
+    --- PASS: TestStringToCm/.01 (0.00s)
+    --- PASS: TestStringToCm/0.1 (0.00s)
+    --- PASS: TestStringToCm/90000001 (0.00s)
+    --- PASS: TestStringToCm/90000000.01 (0.00s)
+    --- PASS: TestStringToCm/0.000 (0.00s)
+    --- PASS: TestStringToCm/0.001 (0.00s)
+    --- PASS: TestStringToCm/0.999 (0.00s)
+    --- PASS: TestStringToCm/-100 (0.00s)
+    --- PASS: TestStringToCm/+100 (0.00s)
+    --- PASS: TestStringToCm/0.-10 (0.00s)
+    --- PASS: TestStringToCm/0.+10 (0.00s)
+    --- PASS: TestStringToCm/0a.00 (0.00s)
+    --- PASS: TestStringToCm/.1x (0.00s)
+    --- PASS: TestStringToCm/. (0.00s)
+    --- PASS: TestStringToCm/1. (0.00s)
+    --- PASS: TestStringToCm/m (0.00s)
+=== RUN   TestParseDS
+--- PASS: TestParseDS (0.00s)
+=== RUN   TestQuotes
+--- PASS: TestQuotes (0.00s)
+=== RUN   TestParseClass
+--- PASS: TestParseClass (0.00s)
+=== RUN   TestBrace
+--- PASS: TestBrace (0.00s)
+=== RUN   TestParseFailure
+--- PASS: TestParseFailure (0.00s)
+=== RUN   TestOmittedTTL
+--- PASS: TestOmittedTTL (0.00s)
+=== RUN   TestRelativeNameErrors
+--- PASS: TestRelativeNameErrors (0.00s)
+=== RUN   TestHIP
+--- PASS: TestHIP (0.00s)
+=== RUN   TestLineNumberError2
+--- PASS: TestLineNumberError2 (0.00s)
+=== RUN   TestRfc1982
+--- PASS: TestRfc1982 (0.00s)
+=== RUN   TestEmpty
+--- PASS: TestEmpty (0.00s)
+=== RUN   TestLowercaseTokens
+--- PASS: TestLowercaseTokens (0.00s)
+=== RUN   TestSRVPacking
+--- PASS: TestSRVPacking (0.00s)
+=== RUN   TestParseBackslash
+--- PASS: TestParseBackslash (0.00s)
+=== RUN   TestILNP
+--- PASS: TestILNP (0.00s)
+=== RUN   TestGposEidNimloc
+--- PASS: TestGposEidNimloc (0.00s)
+=== RUN   TestPX
+--- PASS: TestPX (0.00s)
+=== RUN   TestComment
+--- PASS: TestComment (0.00s)
+=== RUN   TestZoneParserComments
+--- PASS: TestZoneParserComments (0.00s)
+=== RUN   TestEUIxx
+--- PASS: TestEUIxx (0.00s)
+=== RUN   TestUserRR
+--- PASS: TestUserRR (0.00s)
+=== RUN   TestTXT
+--- PASS: TestTXT (0.00s)
+=== RUN   TestTypeXXXX
+--- PASS: TestTypeXXXX (0.00s)
+=== RUN   TestPTR
+--- PASS: TestPTR (0.00s)
+=== RUN   TestDigit
+--- PASS: TestDigit (0.00s)
+=== RUN   TestParseRRSIGTimestamp
+--- PASS: TestParseRRSIGTimestamp (0.00s)
+=== RUN   TestTxtEqual
+--- PASS: TestTxtEqual (0.00s)
+=== RUN   TestTxtLong
+--- PASS: TestTxtLong (0.00s)
+=== RUN   TestMalformedPackets
+--- PASS: TestMalformedPackets (0.00s)
+=== RUN   TestNewPrivateKey
+--- PASS: TestNewPrivateKey (0.01s)
+=== RUN   TestNewRRSpecial
+--- PASS: TestNewRRSpecial (0.00s)
+=== RUN   TestPrintfVerbsRdata
+--- PASS: TestPrintfVerbsRdata (0.00s)
+=== RUN   TestParseTokenOverflow
+--- PASS: TestParseTokenOverflow (0.00s)
+=== RUN   TestParseTLSA
+--- PASS: TestParseTLSA (0.00s)
+=== RUN   TestParseSMIMEA
+--- PASS: TestParseSMIMEA (0.00s)
+=== RUN   TestParseSSHFP
+--- PASS: TestParseSSHFP (0.00s)
+=== RUN   TestParseHINFO
+--- PASS: TestParseHINFO (0.00s)
+=== RUN   TestParseISDN
+--- PASS: TestParseISDN (0.00s)
+=== RUN   TestParseCAA
+--- PASS: TestParseCAA (0.00s)
+=== RUN   TestPackCAA
+--- PASS: TestPackCAA (0.00s)
+=== RUN   TestParseURI
+--- PASS: TestParseURI (0.00s)
+=== RUN   TestParseAVC
+--- PASS: TestParseAVC (0.00s)
+=== RUN   TestParseCSYNC
+--- PASS: TestParseCSYNC (0.00s)
+=== RUN   TestParseSVCB
+--- PASS: TestParseSVCB (0.00s)
+=== RUN   TestParseBadSVCB
+--- PASS: TestParseBadSVCB (0.00s)
+=== RUN   TestParseBadNAPTR
+--- PASS: TestParseBadNAPTR (0.00s)
+=== RUN   TestUnbalancedParens
+--- PASS: TestUnbalancedParens (0.00s)
+=== RUN   TestBad
+--- PASS: TestBad (0.00s)
+=== RUN   TestNULLRecord
+--- PASS: TestNULLRecord (0.00s)
+=== RUN   TestAAAAParsing
+=== RUN   TestAAAAParsing/Test_0
+=== RUN   TestAAAAParsing/Test_1
+=== RUN   TestAAAAParsing/Test_2
+=== RUN   TestAAAAParsing/Test_3
+--- PASS: TestAAAAParsing (0.00s)
+    --- PASS: TestAAAAParsing/Test_0 (0.00s)
+    --- PASS: TestAAAAParsing/Test_1 (0.00s)
+    --- PASS: TestAAAAParsing/Test_2 (0.00s)
+    --- PASS: TestAAAAParsing/Test_3 (0.00s)
+=== RUN   TestParseAPL
+=== RUN   TestParseAPL/v4
+=== RUN   TestParseAPL/v6
+=== RUN   TestParseAPL/null_v6
+=== RUN   TestParseAPL/null_v4
+=== RUN   TestParseAPL/full_v6
+=== RUN   TestParseAPL/full_v4
+=== RUN   TestParseAPL/full_v6#01
+=== RUN   TestParseAPL/v4in6
+=== RUN   TestParseAPL/v4in6_v6_syntax
+=== RUN   TestParseAPL/negate
+=== RUN   TestParseAPL/multiple
+=== RUN   TestParseAPL/no_address
+--- PASS: TestParseAPL (0.00s)
+    --- PASS: TestParseAPL/v4 (0.00s)
+    --- PASS: TestParseAPL/v6 (0.00s)
+    --- PASS: TestParseAPL/null_v6 (0.00s)
+    --- PASS: TestParseAPL/null_v4 (0.00s)
+    --- PASS: TestParseAPL/full_v6 (0.00s)
+    --- PASS: TestParseAPL/full_v4 (0.00s)
+    --- PASS: TestParseAPL/full_v6#01 (0.00s)
+    --- PASS: TestParseAPL/v4in6 (0.00s)
+    --- PASS: TestParseAPL/v4in6_v6_syntax (0.00s)
+    --- PASS: TestParseAPL/negate (0.00s)
+    --- PASS: TestParseAPL/multiple (0.00s)
+    --- PASS: TestParseAPL/no_address (0.00s)
+=== RUN   TestParseAPLErrors
+=== RUN   TestParseAPLErrors/unexpected
+=== RUN   TestParseAPLErrors/unrecognized_family
+=== RUN   TestParseAPLErrors/malformed_family
+=== RUN   TestParseAPLErrors/malformed_address
+=== RUN   TestParseAPLErrors/extra_bits
+=== RUN   TestParseAPLErrors/address_mismatch_v2
+=== RUN   TestParseAPLErrors/address_mismatch_v6
+=== RUN   TestParseAPLErrors/no_prefix
+=== RUN   TestParseAPLErrors/no_family
+--- PASS: TestParseAPLErrors (0.00s)
+    --- PASS: TestParseAPLErrors/unexpected (0.00s)
+    --- PASS: TestParseAPLErrors/unrecognized_family (0.00s)
+    --- PASS: TestParseAPLErrors/malformed_family (0.00s)
+    --- PASS: TestParseAPLErrors/malformed_address (0.00s)
+    --- PASS: TestParseAPLErrors/extra_bits (0.00s)
+    --- PASS: TestParseAPLErrors/address_mismatch_v2 (0.00s)
+    --- PASS: TestParseAPLErrors/address_mismatch_v6 (0.00s)
+    --- PASS: TestParseAPLErrors/no_prefix (0.00s)
+    --- PASS: TestParseAPLErrors/no_family (0.00s)
+=== RUN   TestUnpackRRWithHeaderInvalidLengths
+--- PASS: TestUnpackRRWithHeaderInvalidLengths (0.00s)
+=== RUN   TestParseZONEMD
+--- PASS: TestParseZONEMD (0.00s)
+=== RUN   TestParseIPSECKEY
+--- PASS: TestParseIPSECKEY (0.00s)
+=== RUN   TestParseAMTRELAY
+--- PASS: TestParseAMTRELAY (0.00s)
+=== RUN   TestParseOPENPGPKEY
+--- PASS: TestParseOPENPGPKEY (0.00s)
+=== RUN   TestParseRRSIGAlgNames
+--- PASS: TestParseRRSIGAlgNames (0.00s)
+=== RUN   TestDedup
+--- PASS: TestDedup (0.00s)
+=== RUN   TestNormalizedString
+--- PASS: TestNormalizedString (0.00s)
+=== RUN   TestZoneParserGenerate
+--- PASS: TestZoneParserGenerate (0.00s)
+=== RUN   TestZoneParserInclude
+--- PASS: TestZoneParserInclude (0.00s)
+=== RUN   TestZoneParserIncludeFS
+--- PASS: TestZoneParserIncludeFS (0.00s)
+=== RUN   TestZoneParserIncludeFSPaths
+--- PASS: TestZoneParserIncludeFSPaths (0.00s)
+=== RUN   TestZoneParserIncludeDisallowed
+--- PASS: TestZoneParserIncludeDisallowed (0.00s)
+=== RUN   TestZoneParserAddressAAAA
+--- PASS: TestZoneParserAddressAAAA (0.00s)
+=== RUN   TestZoneParserTargetBad
+--- PASS: TestZoneParserTargetBad (0.00s)
+=== RUN   TestZoneParserAddressBad
+--- PASS: TestZoneParserAddressBad (0.00s)
+=== RUN   TestParseTA
+--- PASS: TestParseTA (0.00s)
+=== RUN   TestParseZoneReadError
+--- PASS: TestParseZoneReadError (0.00s)
+=== RUN   TestUnexpectedNewline
+--- PASS: TestUnexpectedNewline (0.00s)
+=== RUN   TestParseRFC3597InvalidLength
+--- PASS: TestParseRFC3597InvalidLength (0.00s)
+=== RUN   TestParseKnownRRAsRFC3597
+=== RUN   TestParseKnownRRAsRFC3597/with_RDATA
+=== RUN   TestParseKnownRRAsRFC3597/without_RDATA
+--- PASS: TestParseKnownRRAsRFC3597 (0.00s)
+    --- PASS: TestParseKnownRRAsRFC3597/with_RDATA (0.00s)
+    --- PASS: TestParseKnownRRAsRFC3597/without_RDATA (0.00s)
+=== RUN   TestParseOpenEscape
+--- PASS: TestParseOpenEscape (0.00s)
+=== RUN   TestEscapedStringOffset
+--- PASS: TestEscapedStringOffset (0.00s)
+=== RUN   TestDotAsCatchAllWildcard
+--- PASS: TestDotAsCatchAllWildcard (0.00s)
+=== RUN   TestCaseFolding
+--- PASS: TestCaseFolding (0.00s)
+=== RUN   TestRootServer
+--- PASS: TestRootServer (0.00s)
+=== RUN   TestServing
+=== RUN   TestServing/udp
+=== RUN   TestServing/tcp
+=== RUN   TestServing/PacketConn
+--- PASS: TestServing (0.00s)
+    --- PASS: TestServing/udp (0.00s)
+    --- PASS: TestServing/tcp (0.00s)
+    --- PASS: TestServing/PacketConn (0.00s)
+=== RUN   TestServeIgnoresZFlag
+--- PASS: TestServeIgnoresZFlag (0.00s)
+=== RUN   TestServeNotImplemented
+--- PASS: TestServeNotImplemented (0.00s)
+=== RUN   TestServingTLS
+--- PASS: TestServingTLS (0.00s)
+=== RUN   TestServingTLSConnectionState
+--- PASS: TestServingTLSConnectionState (0.00s)
+=== RUN   TestServingListenAndServe
+--- PASS: TestServingListenAndServe (0.00s)
+=== RUN   TestServingListenAndServeTLS
+--- PASS: TestServingListenAndServeTLS (0.00s)
+=== RUN   TestServingLargeResponses
+--- PASS: TestServingLargeResponses (0.00s)
+=== RUN   TestServingResponse
+--- PASS: TestServingResponse (0.10s)
+=== RUN   TestShutdownTCP
+--- PASS: TestShutdownTCP (0.00s)
+=== RUN   TestInProgressQueriesAtShutdownTCP
+--- PASS: TestInProgressQueriesAtShutdownTCP (0.10s)
+=== RUN   TestShutdownTLS
+--- PASS: TestShutdownTLS (0.00s)
+=== RUN   TestInProgressQueriesAtShutdownTLS
+--- PASS: TestInProgressQueriesAtShutdownTLS (0.11s)
+=== RUN   TestHandlerCloseTCP
+--- PASS: TestHandlerCloseTCP (0.00s)
+=== RUN   TestShutdownUDP
+--- PASS: TestShutdownUDP (0.00s)
+=== RUN   TestShutdownPacketConn
+--- PASS: TestShutdownPacketConn (0.00s)
+=== RUN   TestInProgressQueriesAtShutdownUDP
+--- PASS: TestInProgressQueriesAtShutdownUDP (0.10s)
+=== RUN   TestInProgressQueriesAtShutdownPacketConn
+--- PASS: TestInProgressQueriesAtShutdownPacketConn (0.11s)
+=== RUN   TestServerStartStopRace
+--- PASS: TestServerStartStopRace (0.00s)
+=== RUN   TestSocketOptions
+=== RUN   TestSocketOptions/no_socket_options
+=== RUN   TestSocketOptions/SO_REUSEPORT
+=== RUN   TestSocketOptions/SO_REUSEADDR
+=== RUN   TestSocketOptions/SO_REUSEADDR_and_SO_REUSEPORT
+--- PASS: TestSocketOptions (0.00s)
+    --- PASS: TestSocketOptions/no_socket_options (0.00s)
+    --- PASS: TestSocketOptions/SO_REUSEPORT (0.00s)
+    --- PASS: TestSocketOptions/SO_REUSEADDR (0.00s)
+    --- PASS: TestSocketOptions/SO_REUSEADDR_and_SO_REUSEPORT (0.00s)
+=== RUN   TestServerReuseport
+--- PASS: TestServerReuseport (0.00s)
+=== RUN   TestServerReuseaddr
+=== RUN   TestServerReuseaddr/should-fail-tcp
+=== RUN   TestServerReuseaddr/should-succeed-tcp
+=== RUN   TestServerReuseaddr/should-succeed-udp
+--- PASS: TestServerReuseaddr (0.00s)
+    --- PASS: TestServerReuseaddr/should-fail-tcp (0.00s)
+    --- PASS: TestServerReuseaddr/should-succeed-tcp (0.00s)
+    --- PASS: TestServerReuseaddr/should-succeed-udp (0.00s)
+=== RUN   TestServerRoundtripTsig
+--- PASS: TestServerRoundtripTsig (0.00s)
+=== RUN   TestResponseAfterClose
+--- PASS: TestResponseAfterClose (0.00s)
+=== RUN   TestResponseDoubleClose
+--- PASS: TestResponseDoubleClose (0.00s)
+=== RUN   TestResponseWriteSinglePacket
+--- PASS: TestResponseWriteSinglePacket (0.00s)
+=== RUN   TestSIG0
+--- PASS: TestSIG0 (0.03s)
+=== RUN   TestSVCB
+--- PASS: TestSVCB (0.00s)
+=== RUN   TestDecodeBadSVCB
+--- PASS: TestDecodeBadSVCB (0.00s)
+=== RUN   TestPresentationSVCBAlpn
+--- PASS: TestPresentationSVCBAlpn (0.00s)
+=== RUN   TestSVCBAlpn
+--- PASS: TestSVCBAlpn (0.00s)
+=== RUN   TestCompareSVCB
+--- PASS: TestCompareSVCB (0.00s)
+=== RUN   TestTsig
+--- PASS: TestTsig (0.00s)
+=== RUN   TestTsigCase
+--- PASS: TestTsigCase (0.00s)
+=== RUN   TestTsigErrorResponse
+--- PASS: TestTsigErrorResponse (0.00s)
+=== RUN   TestTsigBadTimeResponse
+--- PASS: TestTsigBadTimeResponse (0.00s)
+=== RUN   TestTsigErrors
+--- PASS: TestTsigErrors (0.00s)
+=== RUN   TestTsigGenerate
+=== RUN   TestTsigGenerate/with_request_MAC
+=== RUN   TestTsigGenerate/no_request_MAC
+=== RUN   TestTsigGenerate/with_other_data
+--- PASS: TestTsigGenerate (0.00s)
+    --- PASS: TestTsigGenerate/with_request_MAC (0.00s)
+    --- PASS: TestTsigGenerate/no_request_MAC (0.00s)
+    --- PASS: TestTsigGenerate/with_other_data (0.00s)
+=== RUN   TestTSIGHMAC224And384
+=== RUN   TestTSIGHMAC224And384/hmac-sha224.
+=== RUN   TestTSIGHMAC224And384/hmac-sha384.
+--- PASS: TestTSIGHMAC224And384 (0.00s)
+    --- PASS: TestTSIGHMAC224And384/hmac-sha224. (0.00s)
+    --- PASS: TestTSIGHMAC224And384/hmac-sha384. (0.00s)
+=== RUN   TestTsigGenerateProvider
+=== RUN   TestTsigGenerateProvider/goodkey.
+=== RUN   TestTsigGenerateProvider/badkey.
+--- PASS: TestTsigGenerateProvider (0.00s)
+    --- PASS: TestTsigGenerateProvider/goodkey. (0.00s)
+    --- PASS: TestTsigGenerateProvider/badkey. (0.00s)
+=== RUN   TestTsigVerifyProvider
+=== RUN   TestTsigVerifyProvider/goodkey.
+=== RUN   TestTsigVerifyProvider/badkey.
+--- PASS: TestTsigVerifyProvider (0.00s)
+    --- PASS: TestTsigVerifyProvider/goodkey. (0.00s)
+    --- PASS: TestTsigVerifyProvider/badkey. (0.00s)
+=== RUN   TestCmToM
+--- PASS: TestCmToM (0.00s)
+=== RUN   TestSplitN
+--- PASS: TestSplitN (0.00s)
+=== RUN   TestSprintName
+--- PASS: TestSprintName (0.00s)
+=== RUN   TestSprintTxtOctet
+--- PASS: TestSprintTxtOctet (0.00s)
+=== RUN   TestSprintTxt
+--- PASS: TestSprintTxt (0.00s)
+=== RUN   TestRPStringer
+--- PASS: TestRPStringer (0.00s)
+=== RUN   TestSetUDPSocketOptions
+--- PASS: TestSetUDPSocketOptions (0.00s)
+=== RUN   TestParseDstFromOOB
+--- PASS: TestParseDstFromOOB (0.00s)
+=== RUN   TestCorrectSource
+--- PASS: TestCorrectSource (0.00s)
+=== RUN   TestDynamicUpdateParsing
+--- PASS: TestDynamicUpdateParsing (0.00s)
+=== RUN   TestDynamicUpdateUnpack
+--- PASS: TestDynamicUpdateUnpack (0.00s)
+=== RUN   TestDynamicUpdateZeroRdataUnpack
+--- PASS: TestDynamicUpdateZeroRdataUnpack (0.00s)
+=== RUN   TestRemoveRRset
+--- PASS: TestRemoveRRset (0.00s)
+=== RUN   TestPreReqAndRemovals
+--- PASS: TestPreReqAndRemovals (0.00s)
+=== RUN   TestVersion
+--- PASS: TestVersion (0.00s)
+=== RUN   TestInvalidXfr
+--- PASS: TestInvalidXfr (0.00s)
+=== RUN   TestSingleEnvelopeXfr
+--- PASS: TestSingleEnvelopeXfr (0.00s)
+=== RUN   TestSingleEnvelopeXfrTLS
+--- PASS: TestSingleEnvelopeXfrTLS (0.00s)
+=== RUN   TestMultiEnvelopeXfr
+--- PASS: TestMultiEnvelopeXfr (0.00s)
+=== RUN   TestCustomTsigProvider
+--- PASS: TestCustomTsigProvider (0.00s)
+=== RUN   TestPrivateText
+--- PASS: TestPrivateText (0.00s)
+=== RUN   TestPrivateByteSlice
+--- PASS: TestPrivateByteSlice (0.00s)
+=== RUN   TestPrivateZoneParser
+--- PASS: TestPrivateZoneParser (0.00s)
+=== RUN   ExampleDecorateWriter
+--- PASS: ExampleDecorateWriter (0.00s)
+=== RUN   ExamplePrivateHandle
+--- PASS: ExamplePrivateHandle (0.00s)
+PASS
+ok  	github.com/miekg/dns	0.754s
+=== RUN   TestAddOrigin
+--- PASS: TestAddOrigin (0.00s)
+=== RUN   TestTrimDomainName
+--- PASS: TestTrimDomainName (0.00s)
+PASS
+ok  	github.com/miekg/dns/dnsutil	(cached)

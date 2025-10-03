@@ -1,0 +1,28 @@
+ARG GO_VERSION
+
+FROM golang:${GO_VERSION} as tests_scrapper
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    curl \
+    git \
+    make \
+    binutils \
+    mercurial \
+    bison \
+    bsdmainutils \
+    gcc \
+    build-essential \
+    bash && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN apt-get update && apt-get -uy upgrade && apt-get -y install ca-certificates && update-ca-certificates
+
+WORKDIR /work
+
+COPY . .
+
+RUN git config --global --add safe.directory /work/
+
+RUN go mod download
